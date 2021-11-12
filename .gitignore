@@ -1,0 +1,9 @@
+# node
+node_modules
+
+# Code editor workspace
+.idea
+.vscode
+
+# Misc
+~*

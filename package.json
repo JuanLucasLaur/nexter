@@ -1,0 +1,31 @@
+{
+  "name": "nexter",
+  "version": "0.1.0",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanLucasLaur/nexter.git"
+  },
+  "keywords": [
+    "nexter"
+  ],
+  "author": "Juan L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanLucasLaur/nexter/issues"
+  },
+  "homepage": "https://github.com/JuanLucasLaur/nexter#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.2.0"
+  }
+}
