@@ -1,5 +1,25 @@
 /* Realtors */
 .realtors {
+  align-content: center;
   background-color: $color-secondary;
+  display: grid;
   grid-column: col-start 7 / full-end;
+  justify-content: center;
+  justify-items: center;
+  padding: 3rem;
+  row-gap: 2rem;
+
+  &__img {
+    border-radius: 50%;
+    display: block;
+    width: 7rem;
+  }
+
+  &__list {
+    align-items: center;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: min-content max-content;
+    row-gap: 5vh;
+  }
 }

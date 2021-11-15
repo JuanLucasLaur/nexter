@@ -9,11 +9,11 @@
   background-size: cover;
   display: grid;
   grid-column: full-start / col-end 6;
-  grid-row-gap: 1.5rem;
   grid-template-columns: max-content;
   grid-template-rows: 1fr min-content 6rem 1fr;
   justify-content: center;
   padding: 4rem 8rem 8rem;
+  row-gap: 1.5rem;
 
   .button {
     align-self: start;
