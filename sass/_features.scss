@@ -5,6 +5,7 @@
   grid-column: center-start / center-end;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  margin: 15rem 0;
 }
 
 .feature {

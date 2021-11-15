@@ -9,6 +9,10 @@
   padding: 3rem;
   row-gap: 2rem;
 
+  @include responsive-breakpoint(breakpoint-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__img {
     border-radius: 50%;
     display: block;
@@ -21,5 +25,13 @@
     grid-column-gap: 2rem;
     grid-template-columns: min-content max-content;
     row-gap: 5vh;
+
+    @include responsive-breakpoint(breakpoint-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @include responsive-breakpoint(breakpoint-small) {
+      grid-template-columns: min-content max-content;
+    }
   }
 }
