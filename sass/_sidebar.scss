@@ -23,8 +23,8 @@
     transform: translateY(-1.5rem);
   }
 
-  &::before,
-  &::after {
+  &::after,
+  &::before {
     background-color: #fff;
     content: "";
     display: block;
